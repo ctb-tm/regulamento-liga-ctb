@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Regulamento Oficial — Liga CTB Interior Bahia 2026–2027</title>
+  <style>
+    :root{
+      --ctb-blue:#003399;
+      --ctb-light:#e9f1ff;
+      --text:#1b1b1b;
+      --muted:#555;
+      --page-width:900px;
+    }
+    *{box-sizing:border-box}
+    body{
+      font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      margin:0;
+      background:#f6f8fb;
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+    .container{
+      max-width:var(--page-width);
+      margin:28px auto;
+      background:white;
+      border-radius:8px;
+      box-shadow:0 6px 28px rgba(0,0,0,0.08);
+      overflow:hidden;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:22px 28px;
+      background:linear-gradient(90deg,var(--ctb-blue) 0%, #0b3f99 100%);
+      color:white;
+    }
+    header .brand{
+      display:flex;
+      align-items:center;
+      gap:16px;
+    }
+    header img.logo{
+      width:72px;
+      height:72px;
+      object-fit:contain;
+      background:rgba(255,255,255,0.08);
+      border-radius:6px;
+      padding:6px;
+    }
+    header h1{
+      margin:0;
+      font-size:20px;
+      letter-spacing:0.2px;
+    }
+    header p.lead{ margin:0; font-size:13px; opacity:0.95 }
+    nav.toc{
+      padding:16px 28px;
+      background:var(--ctb-light);
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:center;
+    }
+    nav.toc a{
+      text-decoration:none;
+      color:var(--ctb-blue);
+      border:1px solid rgba(0,51,153,0.06);
+      background:white;
+      padding:8px 12px;
+      border-radius:6px;
+      font-size:13px;
+    }
+    main{
+      padding:28px;
+      line-height:1.55;
+    }
+    h2.section{
+      color:var(--ctb-blue);
+      margin-top:6px;
+      margin-bottom:14px;
+      font-size:18px;
+    }
+    p.lead-desc{ color:var(--muted); margin-top:0; margin-bottom:16px; }
+    .two-col{ display:grid; grid-template-columns:1fr 360px; gap:18px; align-items:start; }
+    .card{
+      background:#fff;
+      border:1px solid #eef4ff;
+      padding:14px;
+      border-radius:8px;
+      box-shadow: 0 2px 6px rgba(8,36,80,0.03);
+    }
+    table{
+      width:100%;
+      border-collapse:collapse;
+      margin:10px 0 18px 0;
+      font-size:14px;
+    }
+    table th, table td{
+      padding:10px 8px;
+      border:1px solid #e6eefb;
+      text-align:left;
+    }
+    table thead th{ background:#f0f7ff; color:var(--ctb-blue); }
+    .monospace{ font-family: Menlo, Monaco, monospace; background:#f7fbff; padding:6px 8px; border-radius:6px; display:inline-block;}
+    footer{
+      padding:18px 28px;
+      border-top:1px solid #eef4ff;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      font-size:13px;
+      background:#fbfdff;
+    }
+    .small{ font-size:13px; color:var(--muted) }
+    .note{ background:#fff8e6; border-left:4px solid #ffd45a; padding:12px; border-radius:6px; margin:14px 0; }
+    @media(max-width:920px){
+      .two-col{ grid-template-columns:1fr; }
+      header{ flex-direction:column; gap:12px; align-items:flex-start; }
+      header img.logo{ width:56px; height:56px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container" role="document">
+    <header>
+      <div class="brand" aria-hidden="false">
+        <!-- Substitua src pelo caminho real da sua logomarca -->
+        <img class="logo" src="logo_ctb.png" alt="Logo Liga CTB" />
+        <div>
+          <h1>CTB – Clube dos Tenistas da Bahia</h1>
+          <p class="lead">Regulamento Oficial — Liga CTB Interior Bahia 2026–2027</p>
+        </div>
+      </div>
+      <div>
+        <p class="lead">Sistema de Gestão de Torneios · Versão Oficial</p>
+      </div>
+    </header>
+
+    <nav class="toc" aria-label="Sumário rápido">
+      <a href="#art1">1. Local, Data e Participação</a>
+      <a href="#art2">2. Inscrição e Divulgação</a>
+      <a href="#art3">3. Formato da Competição</a>
+      <a href="#art4">4. Sistema de Pontuação</a>
+      <a href="#art5">5. Disposições Gerais</a>
+      <a href="#contacts">Contato</a>
+    </nav>
+
+    <main>
+      <section id="art1" class="card" aria-labelledby="h1">
+        <h2 id="h1" class="section">Artigo 1º — Local, Data e Participação</h2>
+
+        <p class="lead-desc">Este artigo define as sedes, critérios de elegibilidade, contatos oficiais e categorias do circuito.</p>
+
+        <div class="two-col">
+          <div>
+            <p><strong>§1º</strong> — As etapas da Liga CTB Interior Bahia serão realizadas conforme calendário oficial publicado no site da Liga. As cidades-sede previstas:</p>
+            <ul>
+              <li><strong>2026:</strong> Feira de Santana, Irecê, Itabuna, Itororó, Salvador (abertura e final), Serrinha, Vitória da Conquista.</li>
+              <li><strong>2027:</strong> Teofilândia, Barrocas, Juazeiro, Jacobina, Paulo Afonso (expansão).</li>
+            </ul>
+
+            <p><strong>§2º</strong> — A participação é aberta a qualquer pessoa de ambos os sexos, com idade mínima de 10 anos. Clubes e atletas devem cadastrar-se na plataforma oficial.</p>
+
+            <p><strong>§3º</strong> — Categorias oficiais:</p>
+            <table aria-label="Categorias">
+              <thead><tr><th>Base</th><th>Adulto</th><th>Veteranos</th></tr></thead>
+              <tbody>
+                <tr><td>Sub 11 • Sub 13 • Sub 15 • Sub 19 • Feminino (Base)</td>
+                    <td>Adulto A • Adulto B • Adulto C</td>
+                    <td>Veterano 40+ • Veterano 60+</td></tr>
+              </tbody>
+            </table>
+
+            <p><strong>§4º</strong> — Cada categoria necessita de no mínimo <strong>3 (três)</strong> atletas confirmados para ser realizada. Caso contrário, a organização pode cancelar ou unir categorias, mediante aviso prévio.</p>
+          </div>
+
+          <aside class="card">
+            <h3 style="margin-top:0;color:var(--ctb-blue)">Contato e Informações</h3>
+            <p class="small"><strong>WhatsApp CTB:</strong> (71) 99708-1912<br/>
+            <strong>Coordenação (Paulo):</strong> (71) 98530-4903<br/>
+            <strong>E-mail:</strong> <a href="mailto:paulo@ctb.com.br">paulo@ctb.com.br</a></p>
+
+            <div class="note"><strong>Aviso:</strong> Endereços, horários e programação detalhada serão publicados por etapa na página de inscrições.</div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="art2" class="card" aria-labelledby="h2">
+        <h2 id="h2" class="section">Artigo 2º — Inscrição e Divulgação</h2>
+
+        <p class="lead-desc">Define prazos, valores, limites de inscrições por atleta e funcionamento do sistema online.</p>
+
+        <p><strong>§1º</strong> — As inscrições deverão ser realizadas via portal oficial da Liga (<span class="monospace">ctb-ba.com.br</span>) e poderão ser pagas por PIX ou cartão. Prazo final para inscrição nas etapas será divulgado no edital de cada etapa — normalmente até as 22h do prazo final anunciado.</p>
+
+        <p><strong>Tabela de Valores Padrão (exemplo)</strong></p>
+        <table aria-label="Valores de inscrição">
+          <thead><tr><th>Categoria</th><th>Valor (por etapa)</th></tr></thead>
+          <tbody>
+            <tr><td>Estudantes / Base (Sub11–Sub19 / Feminino)</td><td>R$ 40,00</td></tr>
+            <tr><td>Adultos (Adulto A / B / C / Veteranos)</td><td>R$ 80,00</td></tr>
+          </tbody>
+        </table>
+
+        <p><strong>§2º</strong> — Cada atleta poderá inscrever-se em até <strong>2 (duas)</strong> categorias por etapa, respeitando calendário e horários. A organização pode limitar inscrições por categoria para garantir qualidade do evento.</p>
+
+        <p><strong>§3º</strong> — As tabelas de jogos, chaves e horários serão geradas automaticamente pelo sistema de gestão e disponibilizadas online, podendo ser exportadas em PDF pela plataforma.</p>
+      </section>
+
+      <section id="art3" class="card" aria-labelledby="h3">
+        <h2 id="h3" class="section">Artigo 3º — Formato da Competição</h2>
+
+        <p class="lead-desc">Expõe formação de grupos, sistema de jogo, critérios de desempate e fase eliminatória.</p>
+
+        <h3 style="margin-bottom:6px;color:var(--ctb-blue)">Seção I — Formação dos Grupos</h3>
+        <p><strong>§1º</strong> — O sorteio dos grupos utiliza o <strong>Snake System</strong>, com base no ranking estadual fornecido no sistema de inscrição. Objetivo: equilibrar tecnicamente os grupos.</p>
+
+        <p><strong>§2º</strong> — Formato conforme número de atletas (N):</p>
+        <table aria-label="Formato por numero de atletas">
+          <thead><tr><th>Número (N)</th><th>Formato</th><th>Classificação</th></tr></thead>
+          <tbody>
+            <tr><td>N = 3</td><td>1 grupo único (Round Robin)</td><td>Sem fase eliminatória</td></tr>
+            <tr><td>4 ≤ N ≤ 7</td><td>2 grupos (Snake)</td><td>Top 2 → Semifinais</td></tr>
+            <tr><td>8 ≤ N ≤ 15</td><td>4 grupos (Snake)</td><td>Top 2 → Quartas</td></tr>
+            <tr><td>16 ≤ N ≤ 24</td><td>8 grupos (Snake)</td><td>Top 2 → Oitavas</td></tr>
+            <tr><td>N &gt; 24</td><td>Limitação a 24 atletas (lista de espera)</td><td>Demais reembolsados</td></tr>
+          </tbody>
+        </table>
+
+        <h3 style="margin-bottom:6px;color:var(--ctb-blue)">Seção II — Sistema de Jogo</h3>
+        <p><strong>§1º</strong> — Todas as partidas são em melhor de <strong>5 sets</strong> (melhor de cinco — 3 vitórias). Cada set até 11 pontos, com diferença mínima de 2 pontos em caso de 10–10.</p>
+        <p><strong>§2º</strong> — Os atletas devem apresentar-se <strong>15 minutos</strong> antes do horário da partida; tolerância de <strong>10 minutos</strong> após chamada oficial. Ausência implica W.O. (0–3).</p>
+
+        <h3 style="margin-bottom:6px;color:var(--ctb-blue)">Seção III — Critérios de Desempate</h3>
+        <p>Classificação por Pontuação de Bônus (Art. 4) e, em caso de empate, aplicar, na ordem:</p>
+        <ol>
+          <li>Confronto direto (para empate entre dois atletas);</li>
+          <li>Índice de Desempate (ID) — utilizando apenas confrontos entre os empatados;</li>
+          <li>Saldo de sets (geral);</li>
+          <li>Saldo de pontos (geral);</li>
+          <li>Pontos pró (geral);</li>
+          <li>Ranking inicial (menor número = melhor).</li>
+        </ol>
+
+        <h3 style="margin-bottom:6px;color:var(--ctb-blue)">Seção IV — Fase Eliminatória</h3>
+        <p><strong>§1º</strong> — Estrutura eliminatória conforme N (Semifinais, Quartas, Oitavas). O chaveamento será automático pelo sistema (padrões CTB). Não há disputa de 3º lugar — semifinalistas dividem posição.</p>
+      </section>
+
+      <section id="art4" class="card" aria-labelledby="h4">
+        <h2 id="h4" class="section">Artigo 4º — Sistema de Pontuação</h2>
+
+        <p class="lead-desc">Define pontos por resultado (bônus) e pontos base por fase, que compõem a pontuação final do ranking estadual.</p>
+
+        <h3 style="margin-bottom:6px;color:var(--ctb-blue)">Subseção A — Pontuação por Partida (Bônus)</h3>
+        <table aria-label="Bônus por resultado">
+          <thead><tr><th>Resultado</th><th>Vencedor</th><th>Perdedor</th></tr></thead>
+          <tbody>
+            <tr><td>3 x 0</td><td>+5 pts</td><td>+0 pts</td></tr>
+            <tr><td>3 x 1</td><td>+4 pts</td><td>+1 pt</td></tr>
+            <tr><td>3 x 2</td><td>+3 pts</td><td>+2 pts</td></tr>
+            <tr><td>W.O.</td><td>+5 pts</td><td>+0 pts</td></tr>
+          </tbody>
+        </table>
+
+        <h3 style="margin-bottom:6px;color:var(--ctb-blue)">Subseção B — Pontos Base por Fase</h3>
+        <p>Os Pontos Base variam conforme número de atletas na categoria. A pontuação final do atleta será:</p>
+        <p class="monospace">Pontuação Final = Pontos Base (Fase) + Σ Pontos Bônus (todas as partidas)</p>
+
+        <table aria-label="Pontos base" style="margin-bottom:6px">
+          <thead><tr><th>Categoria de Tamanho</th><th>Campeão</th><th>Vice</th><th>Semifinal</th><th>Quartas/Oitavas</th><th>Grupos</th></tr></thead>
+          <tbody>
+            <tr><td>Até 12 atletas</td><td>265</td><td>260</td><td>250</td><td>235</td><td>215</td></tr>
+            <tr><td>Até 16 atletas</td><td>265</td><td>260</td><td>250</td><td>235</td><td>190</td></tr>
+            <tr><td>Até 24 atletas</td><td>265</td><td>260</td><td>250</td><td>235</td><td>190</td></tr>
+          </tbody>
+        </table>
+
+        <div class="note"><strong>Observação:</strong> Se uma categoria não alcançar o número mínimo, a organização pode unir categorias similares ou suspender a disputa, comunicando os atletas.</div>
+      </section>
+
+      <section id="art5" class="card" aria-labelledby="h5">
+        <h2 id="h5" class="section">Artigo 5º — Disposições Gerais</h2>
+
+        <p class="lead-desc">Regras gerais, uniformes, equipamentos, arbitragem, premiações e direitos de imagem.</p>
+
+        <p><strong>§1º Uniforme</strong> — Uso obrigatório de camisa com manga (cores permitidas serão divulgadas; branco e laranja têm restrições), short/saia e tênis apropriado.</p>
+
+        <p><strong>§2º Equipamentos</strong> — São permitidas raquetes aprovadas pela ITTF. A bola oficial do circuito será a <strong>SANWEI ABS PRO 3★</strong> ou equivalente homologado.</p>
+
+        <p><strong>§3º Arbitragem</strong> — A arbitragem será supervisionada pelo CTB e poderá ser realizada por árbitros designados ou por atletas que perderam na rodada anterior conforme escala. Súmulas serão geradas eletronicamente.</p>
+
+        <p><strong>§4º Premiação</strong> — Cada etapa entrega <strong>R$ 2.000,00</strong> ao campeão da etapa, além de troféus e medalhas. A grande final em Salvador contará com premiação especial e reconhecimento aos melhores do ranking.</p>
+
+        <p><strong>§5º Pedido de Tempo</strong> — Cada atleta tem direito a 1 pedido de tempo por partida (1 minuto).</p>
+
+        <p><strong>§6º Troca de Equipamento</strong> — Troca de raquete permitida apenas por dano acidental, com imediata comunicação à coordenação.</p>
+
+        <p><strong>§7º Coordenação</strong> — A coordenação geral da Liga é de responsabilidade de <strong>Paulo Carneiro (CTB)</strong>. Casos omissos serão decididos pela Coordenação, observadas as normas ITTF/CBTM.</p>
+
+        <p><strong>§8º Direitos de Imagem</strong> — Ao participar, atletas e clubes autorizam o uso de imagem para divulgação institucional sem ônus. A utilização para fins comerciais seguirá contratos específicos.</p>
+      </section>
+
+      <section class="card" id="contacts" aria-labelledby="h6">
+        <h2 id="h6" class="section">Disposições Finais e Contatos</h2>
+
+        <p>Este regulamento entra em vigor na data de sua publicação e é passível de atualização por decisão do CTB. Recomenda-se que clubes e atletas acompanhem as publicações oficiais para eventuais alterações.</p>
+
+        <p><strong>Contato Oficial:</strong></p>
+        <ul>
+          <li>WhatsApp CTB: <strong>(71) 99708-1912</strong></li>
+          <li>Coordenação (Paulo): <strong>(71) 98530-4903</strong></li>
+          <li>Email: <a href="mailto:paulo@ctb.com.br">paulo@ctb.com.br</a></li>
+          <li>Sitio: <a href="https://ctb-ba.com.br" target="_blank" rel="noopener">ctb-ba.com.br</a> (inscrições e calendário)</li>
+        </ul>
+
+        <p class="small">Elaborado e publicado pelo CTB — Clube dos Tenistas da Bahia. Versão oficial do Sistema de Gestão de Torneios — Liga CTB Interior Bahia 2026–2027.</p>
+      </section>
+    </main>
+
+    <footer>
+      <div>CTB – Clube dos Tenistas da Bahia · Liga CTB Interior Bahia</div>
+      <div class="small">Documento oficial — consulte o site para atualizações</div>
+    </footer>
+  </div>
+</body>
+</html>
